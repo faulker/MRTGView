@@ -1,0 +1,81 @@
+html,body
+{
+	height:100%;
+}
+header[role="banner"]
+{
+	height:65px;
+	background-color:#166293;
+	margin-bottom:25px;
+	overflow:hidden;
+
+	font-family: 'Atomic Age', cursive;
+	font-weight: 400;
+	/*[x-offset] [y-offset] [blur] [color]*/
+	text-shadow:1px 0px 0px #888, 0px -1px 0px #888, 0px 1px 0px #888, -1px 0px 0px #888;
+	text-decoration:none;
+
+	border-bottom:1px #022841 solid;
+}
+header[role="banner"] a,header[role="banner"] p {border-top:8px #022841 solid;}
+header[role="banner"] a,header[role="banner"] a:link,header[role="banner"] a:visited
+{
+	color:#E69917;
+	height:100%;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 1px #664102;
+}
+header[role="banner"] a:hover
+{
+	color:#6DB6E5;
+	text-decoration:underline;
+	cursor: pointer;
+	text-decoration:none;
+	border-top:8px #E69917 solid;
+}
+header[role="banner"] .logo
+{
+	padding-top:15px;
+	font-size:21px;
+}
+
+header[role="banner"] .menu_item
+{
+	padding-top:20px;
+}
+
+
+#wrapper
+{
+	min-height:100%;
+	height: auto !important;
+	margin: 0 auto -47px;
+	
+}
+
+#bodywrapper
+{
+	max-width:940px;
+	margin: 0 auto;
+}
+
+/*
+ * Footer
+ */
+
+footer a,footer a:link,footer a:visited {color:#fff; text-decoration:none; font-weight:normal;}
+footer a:hover {color:#eee; text-decoration:underline; cursor: pointer; font-weight:normal;}
+
+footer
+{
+	background-color:#166293;
+	position:relative;
+	clear:both;
+	height:45px;
+	overflow:hidden;
+	border-top:2px #022841 solid;
+}
+
+footer p {color:#A9CEE5; padding:2px 0 0 0;}

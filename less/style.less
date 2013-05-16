@@ -1,0 +1,138 @@
+@lightgray:#EEE;
+
+html,body
+{
+	height:100%;
+}
+a ,a:link,a:visited { color:@color2b; text-shadow:none;}
+a:hover { color:@color2c; text-shadow:none;}
+
+hr
+{
+	border-width:1px 0 0 0;
+	border-color:@lightgray;
+	border-style:solid;
+}
+
+header[role="banner"]
+{
+	height:65px;
+	background-color:@color4a;
+	padding-top:8px;
+	margin-bottom:25px;
+	overflow:hidden;
+
+	font-family: 'Atomic Age', cursive;
+	font-weight: 400;
+	/*[x-offset] [y-offset] [blur] [color]*/
+	text-shadow:1px 0px 0px #888, 0px -1px 0px #888, 0px 1px 0px #888, -1px 0px 0px #888;
+	text-decoration:none;
+
+	border-bottom:1px @color1c solid;
+}
+header[role="banner"] a,header[role="banner"] a:link,header[role="banner"] a:visited
+{
+	color:@color4c;
+	height:100%;
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 1px #664102;
+}
+header[role="banner"] a:hover
+{
+	color:@lightgray;
+	text-decoration:underline;
+	cursor: pointer;
+	text-decoration:none;
+}
+header[role="banner"] .logo
+{
+	padding-top:15px;
+	font-size:21px;
+}
+
+header[role="banner"] .menu_item
+{
+	padding-top:20px;
+}
+
+
+#wrapper
+{
+	min-height:100%;
+	height: auto !important;
+	margin: 0 auto -46px;
+	padding-bottom:50px;
+	
+}
+
+#bodywrapper
+{
+	max-width:940px;
+	margin: 0 auto;
+}
+
+.nav-tabs > li > a,
+.nav > li > a
+{
+	color:@black;
+	font-size:15px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+  background-color: #lightgray;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus
+{
+	color: @black;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+  background-color: @white;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus
+{
+  color: @white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+  background-color: @color2;
+}
+
+.interface_name > a
+{
+ 
+}
+
+.update_warning
+{
+	color:#DF0000;
+}
+
+
+/*
+ * Footer
+ */
+
+footer a,footer a:link,footer a:visited {color:#fff; text-decoration:none; font-weight:normal;}
+footer a:hover {color:#dfdfdf; text-decoration:underline; cursor: pointer; font-weight:normal;}
+
+footer
+{
+	background-color:@color4a;
+	position:relative;
+	clear:both;
+	height:45px;
+	overflow:hidden;
+	border-top:1px @color4c solid;
+}
+
+footer p {color:@color4; padding:2px 0 0 0;}
