@@ -5,7 +5,7 @@
 
 <footer class="row">
 	<p class="span12">
-		&copy <?php echo date("Y"); ?> <a href="http://www.google.com/recaptcha/mailhide/d?k=01GvI7be3WzbxPtMmYKui_Aw==&amp;c=c-gjL-GhjNGs9rAqFINbmg==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501GvI7be3WzbxPtMmYKui_Aw\75\75\46c\75c-gjL-GhjNGs9rAqFINbmg\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal my e-mail address">Winter Faulk</a>. All Rights Reserved.
+		Created by <a href="http://faulk.me" title="http://faulk.me">Winter Faulk</a>
 	</p>
 </footer>
 
